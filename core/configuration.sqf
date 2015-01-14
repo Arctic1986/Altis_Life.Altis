@@ -70,6 +70,7 @@ life_use_atm = true;
 life_is_arrested = false;
 life_delivery_in_progress = false;
 life_action_in_use = false;
+life_fadeSound = false; 	//	Ohrstöpsel
 life_thirst = 100;
 life_hunger = 100;
 __CONST__(life_paycheck_period,5); //Five minutes
