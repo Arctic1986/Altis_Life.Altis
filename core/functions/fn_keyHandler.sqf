@@ -251,6 +251,15 @@ switch (_code) do
 			};
 		};
 	};
+	//Shift+P = Faded Sound Ohrstöpsel
+	case 25:
+	{
+		if(_shift) then
+		{
+			[] call life_fnc_fadeSound;
+			_handled = true;
+		};
+	};
 };
 
 _handled;
